@@ -59,6 +59,7 @@ if let filePath = Bundle.main.path(forResource: "imageName", ofType: "jpg"), let
   
   # Extension
   
+  ```
   extension UIImageView {
     func downloadedFrom(url: URL, contentMode mode: UIViewContentMode = .scaleAspectFit) {
         contentMode = mode
@@ -79,6 +80,7 @@ if let filePath = Bundle.main.path(forResource: "imageName", ofType: "jpg"), let
         downloadedFrom(url: url, contentMode: mode)
     }
   }
+  ```
   
   - Usage: 
   
